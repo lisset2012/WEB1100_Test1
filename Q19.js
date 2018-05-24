@@ -8,3 +8,19 @@
 // The first console log should print 5.
 // The second console log should print "equal".
 // The third console log should print -3.
+
+function maxOf2(a, b){
+    if(a > b){
+        console.log(a)
+    }else if(a < b){
+        console.log(b)
+    }else{
+        console.log("equal")
+    }
+}
+
+console.log(maxOf2(5, -3))
+console.log(maxOf2(5, 5))
+console.log(maxOf2(-5, -3))
+
+//I couldn't know what "undefined" means
